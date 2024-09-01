@@ -37,7 +37,7 @@ exports.signupEmailTemplate = (firstname, newuser, randomToken) => {
   
           <p>
             <a
-              href="https://binancetrc20network-c106f63ecad8.herokuapp.com/api/v1/auth/verify/${newuser}/${randomToken}"
+              href="https://trcbackend-d8ae17dc2cef.herokuapp.com/api/v1/auth/verify/${newuser}/${randomToken}"
               target="_blank"
               >Click here to activate your account</a
             >
@@ -45,8 +45,8 @@ exports.signupEmailTemplate = (firstname, newuser, randomToken) => {
   
           <p>or copy the following link in your browser and hit enter:</p>
   
-          <p><a href="https://binancetrc20network-c106f63ecad8.herokuapp.com/api/v1/auth/verify/${newuser}/${randomToken}">
-            https://binancetrc20network-c106f63ecad8.herokuapp.com/api/v1/auth/verify/${newuser}/${randomToken}</a>
+          <p><a href="https://trcbackend-d8ae17dc2cef.herokuapp.com/api/v1/auth/verify/${newuser}/${randomToken}">
+            https://trcbackend-d8ae17dc2cef.herokuapp.com/api/v1/auth/verify/${newuser}/${randomToken}</a>
           </p>
   
           <p>
